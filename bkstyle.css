@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+:root {
+    --bg-dark: #0E0E11;
+    --bg-middle: #1E1E28;
+    --bg-light: #D9D0DE;
+    --primary: #2541B2;
+    --secondary: #72DDF7;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: var(--bg-dark);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: var(--bg-light);
+}
+
+.section {
+    padding: 20px;
+}
+
+.split {
+    display: flex;
+    gap: 10px;
+}
+
+.split .sect {
+    flex: 1;
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+}
+
+.box {
+    padding: 20px;
+    border-radius: 1rem;
+    background-color: var(--primary);
+}
+
+.gradient-text {
+    background: linear-gradient(to bottom right, var(--bg-light), var(--primary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.subtitle {
+  font-size: 2rem;
+}
+
+.body-text {
+  font-size: 1.5rem;
+}
+
+#header {
+  height: 8rem;
+  background-color: var(--bg-dark);
+}
+
+#section1 {
+  background-color: var(--bg-middle);
+}
+
+#introduction {
+    text-align: right;
+    font-size: 4rem;
+    vertical-align: middle;
+}
+
+#section2 {
+  background-color: var(--bg-light);
+  color: var(--bg-dark);
+}
+
+#skills {
+  color: var(--bg-dark);
+}
+
+#skills .box {
+  color: var(--bg-light);
+}
+
+#section3 {
+  background-color: var(--bg-middle);
+  color: var(--bg-light);
+}
+
+.box img {
+  width: 12rem;
+}
+
+#footer {
+  background-color: var(--bg-dark);
+  color: var(--bg-light);
+}

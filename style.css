@@ -1,20 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-    --bg-dark: #0E0E11;
-    --bg-middle: #1E1E28;
-    --bg-light: #D9D0DE;
-    --primary: #2541B2;
-    --secondary: #72DDF7;
+    --dark: #1F1B21;
+    --middle: #312C33;
+    --light: #FFEAEE;
+    --primary: #725AC1;
+    --secondary: #8D86C9;
 }
 
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    background-color: var(--bg-dark);
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    color: var(--bg-light);
 }
 
 .section {
@@ -26,81 +23,74 @@ body {
     gap: 10px;
 }
 
-.split .sect {
+.section-element {
     flex: 1;
     padding: 20px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.subtitle {
+    font-weight: 700;
+    font-size: 32px;
 }
 
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
     gap: 10px;
     padding: 10px;
 }
 
 .box {
-    padding: 20px;
-    border-radius: 1rem;
     background-color: var(--primary);
+    color: var(--light);
+    padding: 20px;
+    border-radius: 16px;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
 }
 
 .gradient-text {
-    background: linear-gradient(to bottom right, var(--bg-light), var(--primary));
+    background: linear-gradient(to bottom right, var(--bg-light), var(--dark));
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.title {
-  font-size: 3rem;
-}
-
-.subtitle {
-  font-size: 2rem;
-}
-
-.body-text {
-  font-size: 1.5rem;
-}
 
 #header {
-  height: 8rem;
-  background-color: var(--bg-dark);
+    background-color: var(--dark);
+    color: var(--light);
 }
 
 #section1 {
-  background-color: var(--bg-middle);
-}
-
-#introduction {
-    text-align: right;
-    font-size: 4rem;
-    vertical-align: middle;
+    background-color: var(--middle);
+    color: var(--light);
 }
 
 #section2 {
-  background-color: var(--bg-light);
-  color: var(--bg-dark);
-}
-
-#skills {
-  color: var(--bg-dark);
-}
-
-#skills .box {
-  color: var(--bg-light);
+    background-color: var(--light);
+    color: var(--dark);
 }
 
 #section3 {
-  background-color: var(--bg-middle);
-  color: var(--bg-light);
+    background-color: var(--middle);
+    color: var(--light);
 }
 
-.box img {
-  width: 12rem;
+#section4 {
+    background-color: var(--light);
+    color: var(--dark);
 }
 
 #footer {
-  background-color: var(--bg-dark);
-  color: var(--bg-light);
+    background-color: var(--dark);
+    color: var(--light);
 }
