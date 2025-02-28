@@ -46,8 +46,8 @@ body {
 }
 
 .box {
-    background-color: var(--primary);
-    color: var(--light);
+    background-color: red;
+    color: white;
     padding: 20px;
     border-radius: 16px;
     font-weight: 700;
