@@ -1,6 +1,6 @@
 module.exports = {
-  content: ["_site/**/*.html", "_site/**/*.js"],
-  css: ["_site/assets/css/*.css"],
+  content: ["_layouts/**/*.html", "_includes/**/*.html", "_posts/**/*.md", "*.html"],
+  css: ["assets/css/*.css"],
   output: "_site/assets/css/",
   skippedContentGlobs: ["_site/assets/**/*.html"],
   safelist: [
