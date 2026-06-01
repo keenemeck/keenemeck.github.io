@@ -18,5 +18,12 @@ module.exports = {
     "font-weight-bold",
     "font-weight-medium",
     "font-weight-lighter",
+    "navbar",
+    "container",
+    "fixed-top",
+    "nav-item",
+    "nav-link",
+    "row",
+    "col",
   ],
 };
